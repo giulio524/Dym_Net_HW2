@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  22 DEC 2020 16:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  22 DEC 2020 18:15
 entering extended mode
 **c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.tex
 (c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.tex
@@ -824,111 +824,101 @@ Overfull \hbox (76.02795pt too wide) detected at line 142
 []
  []
 
-[3]
+[3] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\GrafoEx2.tikz)
 Overfull \hbox (30.24338pt too wide) detected at line 176
 []
  []
 
-
-Overfull \hbox (72.63516pt too wide) detected at line 189
+[4] [5]
+Overfull \hbox (28.58604pt too wide) detected at line 221
 []
  []
 
 
-Overfull \hbox (53.7769pt too wide) detected at line 194
-[]
- []
-
-[4]
-Overfull \hbox (28.58604pt too wide) detected at line 218
-[]
- []
-
-
-Overfull \hbox (7.52425pt too wide) in paragraph at lines 243--245
+Overfull \hbox (7.52425pt too wide) in paragraph at lines 246--248
 \T1/lmr/m/n/10.95 che rap-p-re-sen-tano rispet-ti-va-mente il nu-mero di gio-ca-tori che stanno
  []
 
 
-Overfull \hbox (11.03758pt too wide) in paragraph at lines 250--251
+Overfull \hbox (11.03758pt too wide) in paragraph at lines 253--254
 []\T1/lmr/m/n/10.95 Gli equi-libri di Nash, per-tanto, saranno dati dalle terne $[]$
  []
 
-[5]
-Overfull \hbox (13.54721pt too wide) in paragraph at lines 269--271
+[6]
+Overfull \hbox (13.54721pt too wide) in paragraph at lines 272--274
 \T1/lmr/m/n/10.95 In questo caso due dei tre gio-ca-tori sta gio-cando un anti-coordination
  []
 
 
-Overfull \hbox (9.79108pt too wide) in paragraph at lines 278--279
+Overfull \hbox (9.79108pt too wide) in paragraph at lines 281--282
 []\T1/lmr/m/n/10.95 Gli equi-libri di Nash sono in-di-vid-uati da $[]$, $[]$,
  []
 
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 295--297
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 298--300
 
  []
 
 (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\Grafo1.tikz)
-Overfull \hbox (83.32394pt too wide) in paragraph at lines 46--300
+Overfull \hbox (83.32394pt too wide) in paragraph at lines 46--303
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
 
-Overfull \hbox (11.44926pt too wide) detected at line 307
+Overfull \hbox (11.44926pt too wide) detected at line 310
 [] \U/msb/m/n/10.95 P [] \OT1/lmr/m/n/10.95 = [][] \OML/lmm/m/it/10.95 ;
  []
 
-[8] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\Grafo2.tikz)
-Overfull \hbox (92.53741pt too wide) in paragraph at lines 87--313
+[9] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\Grafo2.tikz)
+Overfull \hbox (92.53741pt too wide) in paragraph at lines 87--316
  [] 
  []
 
-[9] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\Grafo3.tikz)
-Overfull \hbox (80.00772pt too wide) in paragraph at lines 87--352
+[10] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\Grafo3.tikz)
+Overfull \hbox (80.00772pt too wide) in paragraph at lines 87--355
  [] 
  []
 
-[10] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\Grafo4.tikz)
-Overfull \hbox (58.05014pt too wide) in paragraph at lines 38--380
+[11] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\Grafo4.tikz)
+Overfull \hbox (58.05014pt too wide) in paragraph at lines 38--383
  [] 
  []
 
 
-Overfull \hbox (21.04924pt too wide) detected at line 385
+Overfull \hbox (21.04924pt too wide) detected at line 388
 [] \U/msb/m/n/10.95 P [] \OT1/lmr/m/n/10.95 = [][] \OML/lmm/m/it/10.95 :
  []
 
-[11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 394.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 394.
+[12]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
  (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\homework2alfredo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 394.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 394.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 397.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
 Package rerunfilecheck Info: File `homework2alfredo.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 394.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 397.
  )
-(\end occurred when \ifx on line 213 was incomplete)
+(\end occurred when \ifx on line 216 was incomplete)
 (\end occurred when \ifx on line 157 was incomplete)
 (\end occurred when \ifx on line 33 was incomplete) 
 Here is how much of TeX's memory you used:
- 26877 strings out of 480799
- 508068 string characters out of 2905528
- 913827 words of memory out of 3000000
- 42269 multiletter control sequences out of 15000+200000
+ 26900 strings out of 480799
+ 508605 string characters out of 2905528
+ 913927 words of memory out of 3000000
+ 42288 multiletter control sequences out of 15000+200000
  581222 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,15n,72p,3296b,990s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,15n,72p,3296b,988s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\homework2alfredo.pdf (11 pages, 219114 bytes).
+Output written on c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\homework2alfredo.pdf (12 pages, 220681 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -159,7 +159,7 @@ k_{n}= \underset{k=0,...,n}{\arg\max} \, \, (\bar{\pi}_{k}) =\Bigl\lfloor\frac{n
 %\begin{figure}[htb]\centering
 %\includegraphics[scale=0.50]{grafoex2.png}
  % \end{figure}
-  
+  \ctikzfig{GrafoEx2}
  \begin{alphaparts}
     \questionpart
 
@@ -183,15 +183,18 @@ k_{n}= \underset{k=0,...,n}{\arg\max} \, \, (\bar{\pi}_{k}) =\Bigl\lfloor\frac{n
     \end{equation*}
     dove $1$ e $2$ rappresentano, rispettivamente, i gestori dei nodi $o$ e $d$ del suddetto grafo.\\
     La funzione di \emph{best response} del primo giocatore risulta essere
-    \begin{align*}
-    BR_{1}\left(\omega_{2}\right)=\underset{\omega_{1}\in A}{\arg\max} \, \, u_{1}\left(\omega_{1},\omega_{2}\right)= \underset{\omega_{1}\in A}{\arg\max} \, \, \omega_{1}f_{1}^{(\omega)}= \underset{\omega_{1}\in A}{\arg\max} \, \, \omega_{1}\left(1-\frac{2}{3}\left(\omega_{1}-\omega_{2}\right)\right)=\\
- \underset{\omega_{1}\in A}{\arg\max} \, \, \omega_{1}\left(1-\frac{2}{3}\omega_{1}+\frac{2}{3}\omega_{2}\right)=\underset{\omega_{1}\in A}{\arg\max} \, \, \left(\omega_{1}-\frac{2}{3}\omega_{1}^{2}+\frac{2}{3}\omega_{1}\omega_{2}\right)=\frac{3}{4}+\frac{1}{2}\omega_{2},  
-    \end{align*}
+    \begin{gather*}
+    BR_{1}\left(\omega_{2}\right)=\underset{\omega_{1}\in A}{\arg\max} \, \, u_{1}\left(\omega_{1},\omega_{2}\right)= \underset{\omega_{1}\in A}{\arg\max} \, \, \omega_{1}f_{1}^{(\omega)}=\\ 
+    \underset{\omega_{1}\in A}{\arg\max} \, \, \omega_{1}\left(1-\frac{2}{3}\left(\omega_{1}-\omega_{2}\right)\right)=
+ \underset{\omega_{1}\in A}{\arg\max} \, \, \omega_{1}\left(1-\frac{2}{3}\omega_{1}+\frac{2}{3}\omega_{2}\right)=\\ \underset{\omega_{1}\in A}{\arg\max} \, \, \left(\omega_{1}-\frac{2}{3}\omega_{1}^{2}+\frac{2}{3}\omega_{1}\omega_{2}\right)=\frac{3}{4}+\frac{1}{2}\omega_{2},  
+    \end{gather*}
     mentre quella relativa al secondo é
-    \begin{align*}
-     BR_{2}\left(\omega_{1}\right)=\underset{\omega_{2}\in A}{\arg\max} \, \, u_{2}\left(\omega_{2},\omega_{1}\right)= \underset{\omega_{2}\in A}{\arg\max} \, \, \omega_{2}f_{2}^{(\omega)}= \underset{\omega_{2}\in A}{\arg\max} \, \, \omega_{2}\left(\frac{2}{3}\left(\omega_{1}-\omega_{2}\right)\right)=\\
- \underset{\omega_{2}\in A}{\arg\max} \, \, \omega_{2}\left(\frac{2}{3}\omega_{1}-\frac{2}{3}\omega_{2}\right)=\underset{\omega_{2}\in A}{\arg\max} \, \, \left(\frac{2}{3}\omega_{2}\omega_{1}-\frac{2}{3}\omega_{2}^{2}\right)=\frac{1}{2}\omega_{1}.
-    \end{align*}
+    \begin{gather*}
+     BR_{2}\left(\omega_{1}\right)=\underset{\omega_{2}\in A}{\arg\max} \, \, u_{2}\left(\omega_{2},\omega_{1}\right)= \underset{\omega_{2}\in A}{\arg\max} \, \, \omega_{2}f_{2}^{(\omega)}= \\
+     \underset{\omega_{2}\in A}{\arg\max} \, \, \omega_{2}\left(\frac{2}{3}\left(\omega_{1}-\omega_{2}\right)\right)=
+ \underset{\omega_{2}\in A}{\arg\max} \, \, \omega_{2}\left(\frac{2}{3}\omega_{1}-\frac{2}{3}\omega_{2}\right)=\\
+ \underset{\omega_{2}\in A}{\arg\max} \, \, \left(\frac{2}{3}\omega_{2}\omega_{1}-\frac{2}{3}\omega_{2}^{2}\right)=\frac{1}{2}\omega_{1}.
+    \end{gather*}
     
 
     %----------------------------------------------------------------------------------

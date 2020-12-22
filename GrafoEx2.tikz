@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+	\begin{pgfonlayer}{nodelayer}
+		\node [style=new style 0] (0) at (-4, 0) {o};
+		\node [style=new style 0] (1) at (3.5, 0) {d};
+		\node [style=none] (2) at (-0.25, -1.75) {$e_2$};
+		\node [style=none] (3) at (-0.25, 1.75) {$e_1$};
+	\end{pgfonlayer}
+	\begin{pgfonlayer}{edgelayer}
+		\draw [style=new edge style 0, in=150, out=30] (0) to (1);
+		\draw [style=new edge style 0, bend right] (0) to (1);
+	\end{pgfonlayer}
+\end{tikzpicture}
