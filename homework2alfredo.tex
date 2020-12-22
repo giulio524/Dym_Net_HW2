@@ -1,7 +1,7 @@
 \documentclass[11pt,largemargins]{homework}
 
-\newcommand{\hwname}{Alfredo Baione}
-\newcommand{\hwemail}{s279328@studenti.polito.it}
+\newcommand{\hwname}{Giulio Nenna}
+\newcommand{\hwemail}{s245717@studenti.polito.it}
 \newcommand{\hwtype}{Homework}
 \newcommand{\hwnum}{2}
 \newcommand{\hwclass}{}
@@ -28,7 +28,7 @@
 \begin{document}
 \maketitle
 \begin{center}
-Realizzato in collaborazione con Giulio Nenna (s245717)
+Realizzato in collaborazione con Alfredo Baione (s279328)
 \end{center}
 \section{}% --------------ESERCIZIO 1------------------------------
   %\begin{figure}[htb]\centering
@@ -228,33 +228,64 @@ Sia $n=3$.
 
   
   \begin{itemize}
-  \item[$\left(\textbf{a1}\right)$]  $n_{1}=3$.
+  
+  
+    \item[$\left(\textbf{a1}\right)$]  $n_{1}=3$.\\
+  Ciascun giocatore sta giocando un coordination game quindi valgono le seguenti: 
   \begin{align*}
   \mathcal{V}_{1}=\{1,2,3\}, \, \mathcal{V}_{2}=\emptyset, \\
    u_{i}=\frac{1}{2}\sum_{j\neq i}\mid x_{i}+x_{j}\mid, \,\, \forall i.
   \end{align*}
-  Gli equilibri di Nash, pertanto, saranno dati dalle terne $\left(-1,-1,-1\right)$ e $\left(+1,+1,+1\right)$, perché entrambe le configurazioni, in tal caso, massimizzano le ``utilities'' di $1$, $2$ e $3$.
+  Se definiamo le quantità
+  \begin{gather*}
+    n^+ = | \{x_i = +1, i\in \mathcal{V}\}|\\
+    n^- = | \{x_i = -1, i\in \mathcal{V}\}|
+  \end{gather*}
+  che rappresentano rispettivamente il numero di giocatori che stanno giocando +1 e -1 allora per ciascun giocatore vale la seguente:
+  \begin{gather*}
+    \{x_i = +1\} \in BR_i (x_{-i}) \iff n^+ \geq n^-\\
+    \{x_i = -1\} \in BR_i (x_{-i}) \iff n^- \geq n^+
+  \end{gather*}
   
-  \item[$\left(\textbf{a2}\right)$] $n_{1}=2$.
-  \begin{align*}
+  Gli equilibri di Nash, pertanto, saranno dati dalle terne $\left(-1,-1,-1\right)$ e $\left(+1,+1,+1\right)$, perché entrambe le configurazioni, in tal caso, massimizzano le ``utilities'' di $1$, $2$ e $3$ e sono compatibili con i best response di ciascun giocatore.
+  
+  
+  \item[$\left(\textbf{a2}\right)$] $n_{1}=2$.\\%----------------------------------------------------------------------------
+  In questo caso il giocatore \(i = 3\) sta giocando un anti-coordination game. Quindi: 
+  \begin{gather*}
   \mathcal{V}_{1}=\{1,2\}, \, \mathcal{V}_{2}=\{3\},\\
   u_{1}=\frac{1}{2}\cdot \left(\mid x_{1}+x_{2}\mid + \mid x_{1}+x_{3}\mid\right), \\ u_{2}=\frac{1}{2}\cdot \left(\mid x_{2}+x_{1}\mid + \mid x_{2}+x_{3}\mid\right), \\ u_{3}=\frac{1}{2}\cdot \left(\mid x_{3}-x_{1}\mid + \mid x_{3}-x_{2}\mid\right).
-  \end{align*}
-  Adesso, gli equilibri di Nash risultano essere individuati dalle configurazioni $\left(-1,-1,+1\right)$ e $\left(+1,+1,-1\right)$, poiché in questi stati qualsiasi altra azione di uno dei tre giocatori, mantenendo invariate quelle degli altri, non ne migliora l' ``utility''.
-  \item[$\left(\textbf{a3}\right)$]  $n_{1}=1$.
-  \begin{align*}
+  \end{gather*}
+  Per cui vale:
+  \begin{gather*}
+    \{x_3 = +1\} \in BR_3 (x_{-3}) \iff n^- \geq n^+\\
+    \{x_3 = -1\} \in BR_3 (x_{-3}) \iff n^+ \geq n^-
+  \end{gather*}
+
+
+  Quindi, gli equilibri di Nash risultano essere individuati dalle configurazioni $\left(-1,-1,+1\right)$ e $\left(+1,+1,-1\right)$ in cui si può notare come ai primi due giocatori convenga essere "accordati" mentre al terzo convenga giocare il contrario di quello che giocano i primi due.
+  
+  
+  \item[$\left(\textbf{a3}\right)$]  $n_{1}=1$.\\ %-------------------------------------------------------------------------
+  In questo caso due dei tre giocatori sta giocando un anti-coordination game e solo il terzo sta giocando un coordination game. In particolare:
+  \begin{gather*}
   \mathcal{V}_{1}=\{1\},\, \mathcal{V}_{2}=\{2,3\},\\
   u_{1}=\frac{1}{2}\cdot \left(\mid x_{1}+x_{2}\mid + \mid x_{1}+x_{3}\mid\right), \\
   u_{2}=\frac{1}{2}\cdot \left(\mid x_{2}-x_{1}\mid + \mid x_{2}-x_{3}\mid\right), \\
   u_{3}=\frac{1}{2}\cdot \left(\mid x_{3}-x_{1}\mid + \mid x_{3}-x_{2}\mid\right).
-  \end{align*}
-  Gli equilibri di Nash sono individuati da $\left(+1,+1,-1\right)$, $\left(-1,+1,-1\right)$, $\left(+1,-1,+1\right)$ e $\left(-1,-1,+1\right)$, poiché in tali configurazioni, come spiegato anche in precedenza, nessun giocatore ha incentivo a cambiare la sua azione, se quella degli altri resta invariata.
-  \item[$\left(\textbf{a4}\right)$] $n_{1}=0$.
+  \end{gather*}
+  
+  Gli equilibri di Nash sono individuati da $\left(+1,+1,-1\right)$, $\left(-1,+1,-1\right)$, $\left(+1,-1,+1\right)$ e $\left(-1,-1,+1\right)$, ossia configurazioni in cui fintanto che \(x_1 \neq x_2\) allora \(i=1\) può giocare qualsiasi valore dal momento che la sua utilità non cambia. In queste configurazioni nessun giocatore guadagna utilità cambiando mossa.
+  
+  
+  
+  \item[$\left(\textbf{a4}\right)$] $n_{1}=0$.\\%--------------------------------------------------------------------------
+  Tutti i giocatori stanno giocando un anti-coordination game:
   \begin{align*}
   \mathcal{V}_{1}=\emptyset, \, \mathcal{V}_{2}=\{1,2,3\},\\
   u_{i}=\frac{1}{2}\sum_{j\neq i}\mid x_{i}-x_{j}\mid, \,\, \forall i
   \end{align*}
-  e gli stati $\left(+1,-1,-1\right)$, $\left(-1,+1,-1\right)$, $\left(-1,-1,+1\right)$, $\left(-1,+1,+1\right)$, $\left(+1,-1,+1\right)$ e $\left(+1,+1,-1\right)$ saranno equilibri di Nash, per le ragioni già esposte.
+  e gli stati $\left(+1,-1,-1\right)$, $\left(-1,+1,-1\right)$, $\left(-1,-1,+1\right)$, $\left(-1,+1,+1\right)$, $\left(+1,-1,+1\right)$ e $\left(+1,+1,-1\right)$ saranno equilibri di Nash, per le ragioni già esposte. Queste configurazioni rappresentano tutte le possibili combinazioni di mosse dei giocatori tranne quelle in cui sono tutti accordati, incompatibili con i best response di qualsiasi giocatore nel caso di un anti-coordination game.
   \end{itemize}
   
   
@@ -268,10 +299,8 @@ Sia $n=3$.
  
  \ctikzfig{Grafo1}
  
- %\begin{figure}[htb]\centering
-%\includegraphics[scale=0.50]{transitiongraph1.png}
- % \end{figure}
-  
+ Per questo punto e per quelli successivi verrà utilizzata la nomenclatura mostrata in figura. In particolare \(x_i\) rappresenta la i-esima configurazione nel grafo delle transizioni e gli archi sono colorati in rosso, blu o verde se a cambiare mossa in un salto di configurazione sono rispettivamente il primo, il secondo o il terzo giocatore.  \\
+
   Come si può osservare dal grafo delle transizioni di configurazione con i relativi \emph{rate} di transizione, risulta che
   \begin{equation*}
   \lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right)=\left(\frac{1}{2},\frac{1}{2},0,0,0,0,0,0\right)',
@@ -287,22 +316,32 @@ in quanto $X\left(t\right)$, per $t\mapsto +\infty$, finirà necessariamente in 
 %\includegraphics[scale=0.50]{transitiongraph2.png}
   %\end{figure}  
   
-  Il grafo di transizione, in tal caso, è fortemente connesso. Questo significa che esiste una sola misura invariante, $\pi_{x}$, a cui tenderà $\lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right).$\\
-  Sfruttando, allora, l'esistenza di 4 simmetrie, identificabili con $\pi_{a}$, $\pi_{b}$, $\pi_{c}$ e $\pi_{d}$ (ognuna associata ad un raggruppamento di colore diverso in figura), risulta individuato, a partire dai \emph{rates} di transizione di ogni stato, il sistema lineare 
+  Il grafo di transizione, in tal caso, è fortemente connesso. Questo significa che esiste una sola misura invariante, $\pi_{x}$, a cui tenderà $$\lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right).$$
+  Sfruttando allora l'esistenza di 4 simmetrie, identificabili con $\pi_{a}$, $\pi_{b}$, $\pi_{c}$ e $\pi_{d}$ (ognuna associata ad un raggruppamento di colore diverso in figura) è possibile determinare la misura invariante \(\pi_x\) traducendo la condizione 
+  \begin{gather*}
+    L'\pi = 0 \iff \text{diag}(\omega)\pi = \Lambda ' \pi
+  \end{gather*}
+  in
   \begin{equation*}
-  \begin{cases}\pi_{a}=\pi_{c}+\pi_{d}\\
-  \pi_{b}=\pi_{a}\\
-  2\pi_{c}=\frac{1}{2}\pi_{b}+\frac{1}{2}\pi_{d}\\
-   2\pi_{d}=\frac{1}{2}\pi_{b}+\frac{1}{2}\pi_{c}\\
-  \pi_{a}+\pi_{b}+\pi_{c}+\pi_{d}=\frac{1}{2}\end{cases}
+  \begin{cases}
+    \pi_{a}=\pi_{c}+\pi_{b}\\
+    2\pi_{b}=\frac{1}{2}\pi_c+ \frac{1}{2}\pi_d\\
+    2\pi_{c}=\frac{1}{2}\pi_{b}+\frac{1}{2}\pi_{d}\\
+    \pi_{a}+\pi_{b}+\pi_{c}+\pi_{d}=\frac{1}{2}
+  \end{cases}
   \Leftrightarrow
-  \begin{cases}\pi_{a}=\pi_{b}=\frac{1}{6}\\
-  \pi_{c}=\pi_{d}=\frac{1}{12}\end{cases},
+  \begin{cases}
+    \pi_{a}=\frac{2}{14}\\
+    \pi_{b}=\frac{1}{14}\\
+    \pi_{c}=\frac{1}{14}\\
+    \pi_{d}=\frac{3}{14}
+  \end{cases},
   \end{equation*}
   da cui si ricava che
-  \begin{equation*}
-  \lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right)=\pi_{x}=\left(\frac{1}{6},\frac{1}{6},\frac{1}{12},\frac{1}{12},\frac{1}{12},\frac{1}{12},\frac{1}{12},\frac{1}{12}\right)'.
-  \end{equation*}
+  \begin{gather*}
+  \lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right)=\\
+  =\pi_{x}=\frac{1}{14}\left(2, 2, 1, 1, 1, 1, 3, 3\right)'.
+  \end{gather*}
   
   
   \newpage
@@ -311,23 +350,25 @@ in quanto $X\left(t\right)$, per $t\mapsto +\infty$, finirà necessariamente in 
 %\includegraphics[scale=0.50]{transitiongraph3.png}
   %\end{figure} 
   \ctikzfig{Grafo3}
-  Anche in tal caso il grafo di transizione risulta fortemente connesso e, quindi, esiste un'unica misura invariante, $\pi_{x}$, a cui tende $\lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right).$\\
+  Anche in tal caso il grafo di transizione risulta fortemente connesso e, quindi, esiste un'unica misura invariante, $\pi_{x}$, a cui tende $$\lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right).$$\\
   Come prima, grazie  ai \emph{rates} di transizione tra i diversi stati e alle quattro simmetrie presenti nel grafo ($\pi_{a}$, $\pi_{b}$, $\pi_{c}$ e $\pi_{d}$), ricaviamo il sistema
   \begin{equation*}
-  \begin{cases}2\pi_{a}=\pi_{c}\\
-  \pi_{b}=\pi_{a}+\frac{1}{2}\pi_{c}+\frac{1}{2}\pi_{d}\\
-  2\pi_{c}=\frac{1}{2}\pi_{b}+\frac{1}{2}\pi_{d}\\
-  \pi_{d}=\pi_{a}+\frac{1}{2}\pi_{b}+\frac{1}{2}\pi_{c}\\
-  \pi_{a}+\pi_{b}+\pi_{c}+\pi_{d}=\frac{1}{2}\end{cases}
+  \begin{cases}
+    2\pi_{a}=\pi_{b}\\
+    \pi_{c}=\pi_{a}+\frac{1}{2}\pi_{b}+\frac{1}{2}\pi_{d}\\
+    2\pi_{b}=\frac{1}{2}\pi_{c}+\frac{1}{2}\pi_{d}\\
+    \pi_{a}+\pi_{b}+\pi_{c}+\pi_{d}=\frac{1}{2}
+  \end{cases}
   \Leftrightarrow
   \begin{cases}\pi_{a}=\frac{1}{22}\\
-  \pi_{b}=\pi_{d}=\frac{2}{11}\\
-  \pi_{c}=\frac{1}{11}\end{cases},
+  \pi_{c}=\pi_{d}=\frac{2}{11}\\
+  \pi_{b}=\frac{1}{11}\end{cases},
   \end{equation*}
   da cui
-  \begin{equation*}
-  \lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right)=\pi_{x}=\left(\frac{1}{22},\frac{1}{22},\frac{2}{11},\frac{2}{11},\frac{1}{11},\frac{1}{11},\frac{2}{11},\frac{2}{11}\right)'.
-  \end{equation*}
+  \begin{gather*}
+  \lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right)=\\
+  =\pi_{x}=\left(\frac{1}{22},\frac{1}{22},\frac{1}{11},\frac{1}{11},\frac{2}{11},\frac{2}{11},\frac{2}{11},\frac{2}{11}\right)'.
+  \end{gather*}
   
   \newpage
   \item[$\left(\textbf{b4}\right)$] $n_{1}=0$. 
@@ -338,7 +379,7 @@ in quanto $X\left(t\right)$, per $t\mapsto +\infty$, finirà necessariamente in 
   
   \ctikzfig{Grafo4}
   In quest'ultima configurazione del grafo di transizione esiste un solo stato assorbente del sistema, per $t\mapsto +\infty$, rappresentato dall'insieme $\{x_{3}, \, x_{4}, \, x_{5}, \, x_{6}, \, x_{7}, \, x_{8}\}$.\\
-  Pertanto, si avrà:
+  Pertanto, si avrà, analogamente al caso in cui \(n_1 = 3\):
   \begin{equation*}
   \lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right)=\left(0,0,\frac{1}{6},\frac{1}{6},\frac{1}{6},\frac{1}{6},\frac{1}{6},\frac{1}{6}\right)'.
 \end{equation*}

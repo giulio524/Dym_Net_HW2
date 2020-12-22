@@ -11,7 +11,7 @@
 		\node [style=Peso Blu] (8) at (-8.5, 0.25) {1};
 		\node [style=peso rosso] (9) at (-9.25, 3.5) {1};
 		\node [style=Peso Verde] (10) at (8, -2.25) {1};
-		\node [style=Peso Verde] (11) at (-9.25, -2.25) {1};
+		\node [style=Peso Verde] (11) at (-10, -3) {1};
 		\node [style=Peso Blu] (12) at (7.75, 0.25) {1};
 		\node [style=peso rosso] (13) at (8.5, 2.75) {1};
 		\node [style=Peso Verde] (14) at (-3.25, 4.25) {1/2};
@@ -25,7 +25,7 @@
 		\node [style=nome nodo] (22) at (-7.5, 6.25) {$x_3$};
 		\node [style=nome nodo] (23) at (5.5, 6.25) {$x_4$};
 		\node [style=nome nodo] (24) at (-7, 1) {$x_5$};
-		\node [style=nome nodo] (25) at (5.75, 0.75) {$x_6$};
+		\node [style=nome nodo] (25) at (5.75, 1.25) {$x_6$};
 		\node [style=nome nodo] (26) at (-7, -5.75) {$x_7$};
 		\node [style=nome nodo] (27) at (5.25, -5.75) {$x_8$};
 	\end{pgfonlayer}
