@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  22 DEC 2020 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  22 DEC 2020 18:25
 entering extended mode
 **c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.tex
 (c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.tex
@@ -798,7 +798,9 @@ LaTeX Info: Redefining \nameref on input line 28.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\GrafoEx1.tikz) [1
+
+{C:/Users/giuli/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Overfull \hbox (13.41023pt too wide) detected at line 76
 \OML/lmm/m/it/10.95 [] [] \OT1/lmr/m/n/10.95 = [] \OML/lmm/m/it/10.95 W[] [] x[] \OT1/lmr/m/n/10.95 = \OML/lmm/m/it/10.95 [] [] \OT1/lmr/m/n/10.95 = [] \OML/lmm/m/it/10.95 W[] [] x[] \OT1/lmr/m/n/10.95 = \OML/lmm/m/it/10.95 n \OT1/lmr/m/n/10.95 + 1 \OMS/lmsy/m/n/10.95   \OML/lmm/m/it/10.95  [] :
  []
@@ -808,28 +810,25 @@ Overfull \hbox (86.73418pt too wide) detected at line 82
 []
  []
 
-[1
-
-{C:/Users/giuli/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 89.
- ("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+) [2]
 Overfull \hbox (5.7942pt too wide) in paragraph at lines 112--114
 \T1/lmr/m/n/10.95 com-por-ta-mento di $[]$, $[]$, $[]$ e $[]$, rispetto alla vari-abile $\OML/lmm/m/it/10.95 $\T1/lmr/m/n/10.95 , nell'intervallo
  []
 
-[2]
+[3]
 Overfull \hbox (76.02795pt too wide) detected at line 142
 []
  []
 
-[3] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\GrafoEx2.tikz)
+[4] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\GrafoEx2.tikz)
 Overfull \hbox (30.24338pt too wide) detected at line 176
 []
  []
 
-[4] [5]
+[5] [6]
 Overfull \hbox (28.58604pt too wide) detected at line 221
 []
  []
@@ -844,7 +843,7 @@ Overfull \hbox (11.03758pt too wide) in paragraph at lines 253--254
 []\T1/lmr/m/n/10.95 Gli equi-libri di Nash, per-tanto, saranno dati dalle terne $[]$
  []
 
-[6]
+[7]
 Overfull \hbox (13.54721pt too wide) in paragraph at lines 272--274
 \T1/lmr/m/n/10.95 In questo caso due dei tre gio-ca-tori sta gio-cando un anti-coordination
  []
@@ -854,7 +853,7 @@ Overfull \hbox (9.79108pt too wide) in paragraph at lines 281--282
 []\T1/lmr/m/n/10.95 Gli equi-libri di Nash sono in-di-vid-uati da $[]$, $[]$,
  []
 
-[7] [8]
+[8] [9]
 Underfull \hbox (badness 10000) in paragraph at lines 298--300
 
  []
@@ -874,17 +873,17 @@ Overfull \hbox (11.44926pt too wide) detected at line 310
 [] \U/msb/m/n/10.95 P [] \OT1/lmr/m/n/10.95 = [][] \OML/lmm/m/it/10.95 ;
  []
 
-[9] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\Grafo2.tikz)
+[10] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\Grafo2.tikz)
 Overfull \hbox (92.53741pt too wide) in paragraph at lines 87--316
  [] 
  []
 
-[10] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\Grafo3.tikz)
+[11] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\Grafo3.tikz)
 Overfull \hbox (80.00772pt too wide) in paragraph at lines 87--355
  [] 
  []
 
-[11] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\Grafo4.tikz)
+[12] (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\Grafo4.tikz)
 Overfull \hbox (58.05014pt too wide) in paragraph at lines 38--383
  [] 
  []
@@ -894,7 +893,7 @@ Overfull \hbox (21.04924pt too wide) detected at line 388
 [] \U/msb/m/n/10.95 P [] \OT1/lmr/m/n/10.95 = [][] \OML/lmm/m/it/10.95 :
  []
 
-[12]
+[13]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
  (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\homework2alfredo.aux)
@@ -908,17 +907,17 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 397.
 (\end occurred when \ifx on line 157 was incomplete)
 (\end occurred when \ifx on line 33 was incomplete) 
 Here is how much of TeX's memory you used:
- 26900 strings out of 480799
- 508605 string characters out of 2905528
- 913927 words of memory out of 3000000
- 42288 multiletter control sequences out of 15000+200000
+ 26918 strings out of 480799
+ 509022 string characters out of 2905528
+ 914053 words of memory out of 3000000
+ 42302 multiletter control sequences out of 15000+200000
  581222 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,15n,72p,3296b,988s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\homework2alfredo.pdf (12 pages, 220681 bytes).
+Output written on c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\homework2alfredo.pdf (13 pages, 222712 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

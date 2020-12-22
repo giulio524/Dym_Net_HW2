@@ -10,6 +10,7 @@
 \tikzstyle{Peso Verde}=[fill=none, draw=none, shape=circle, color=green, scale=0.75]
 \tikzstyle{nome nodo}=[fill=none, draw=none, shape=circle, scale=0.65]
 \tikzstyle{new style 0}=[fill=white, draw=black, shape=circle]
+\tikzstyle{azione}=[fill=none, draw=black, shape=circle, color=red]
 
 % Edge styles
 \tikzstyle{undirected 1}=[-, draw={rgb,255: red,216; green,0; blue,0}]
@@ -23,3 +24,4 @@
 \tikzstyle{Pi_d}=[-, draw={rgb,255: red,141; green,25; blue,223}, thick]
 \tikzstyle{PI_a}=[-, draw={rgb,255: red,225; green,192; blue,5}, thick]
 \tikzstyle{new edge style 0}=[->, draw=black, thick]
+\tikzstyle{tratteggio}=[-, dashed, thick]

@@ -372,8 +372,11 @@ OUTPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW2\homework2alfredo.out
 OUTPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW2\homework2alfredo.pdf
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr12.tfm
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx10.tfm
-INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmri10.tfm
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW2\GrafoEx1.tikz
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW2\GrafoEx1.tikz
+INPUT c:\Users\giuli\Documents\GitHub\Dym_Net_HW2\GrafoEx1.tikz
 INPUT C:\Users\giuli\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmri10.tfm
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd
 INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd
 INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ts1-lmr10.tfm
