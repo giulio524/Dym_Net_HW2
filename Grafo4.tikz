@@ -1,0 +1,38 @@
+\begin{tikzpicture}
+	\begin{pgfonlayer}{nodelayer}
+		\node [style=Nodo] (0) at (-11.5, 0) {(+1, +1, +1)};
+		\node [style=Nodo] (1) at (-6, 5.25) {(-1, +1, +1)};
+		\node [style=Nodo] (2) at (-6, 0) {(+1, -1, +1)};
+		\node [style=Nodo] (3) at (-5.75, -4.75) {(+1, +1, -1)};
+		\node [style=Nodo] (4) at (4.25, 5.25) {(+1, -1, -1)};
+		\node [style=Nodo] (5) at (4.25, 0) {(-1, +1, -1)};
+		\node [style=Nodo] (6) at (4.25, -4.75) {(-1, -1, +1)};
+		\node [style=Nodo] (7) at (9.75, 0) {(-1, -1, -1)};
+		\node [style=Peso Blu] (8) at (-8.5, 0.25) {1};
+		\node [style=peso rosso] (9) at (-9.25, 3.5) {1};
+		\node [style=Peso Verde] (10) at (7.75, -2.25) {1};
+		\node [style=Peso Verde] (11) at (-9.25, -2.25) {1};
+		\node [style=Peso Blu] (12) at (7.25, 0.25) {1};
+		\node [style=peso rosso] (13) at (8, 2.75) {1};
+		\node [style=Peso Verde] (14) at (-3.25, 4.25) {1/2};
+		\node [style=Peso Blu] (15) at (3.25, 3.5) {1/2};
+		\node [style=Peso Verde] (16) at (-4.5, 1.25) {1/2};
+		\node [style=peso rosso] (17) at (-4.75, -1.25) {1/2};
+		\node [style=peso rosso] (18) at (3, -1.25) {1/2};
+		\node [style=Peso Blu] (19) at (3, -3) {1/2};
+	\end{pgfonlayer}
+	\begin{pgfonlayer}{edgelayer}
+		\draw [style=undirected 3] (1) to (5);
+		\draw [style=undirected 3] (2) to (4);
+		\draw [style=undirected 2] (1) to (6);
+		\draw [style=undirected 2] (3) to (4);
+		\draw [style=undirected 1] (2) to (6);
+		\draw [style=undirected 1] (3) to (5);
+		\draw [style=Directed 3] (0) to (3);
+		\draw [style=Directed 3] (7) to (6);
+		\draw [style=Directed 2] (0) to (2);
+		\draw [style=Directed 2] (7) to (5);
+		\draw [style=Directed 1] (0) to (1);
+		\draw [style=Directed 1] (7) to (4);
+	\end{pgfonlayer}
+\end{tikzpicture}
