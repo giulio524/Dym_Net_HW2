@@ -1,7 +1,7 @@
 \documentclass[11pt,largemargins]{homework}
 
-\newcommand{\hwname}{Giulio Nenna}
-\newcommand{\hwemail}{s245717@studenti.polito.it}
+\newcommand{\hwname}{Alfredo Baione}
+\newcommand{\hwemail}{s279328@studenti.polito.it}
 \newcommand{\hwtype}{Homework}
 \newcommand{\hwnum}{2}
 \newcommand{\hwclass}{}
@@ -22,20 +22,19 @@
 \usepackage{mcode}
 \usepackage{epstopdf}
 \usepackage{subcaption}
-\usepackage{tikzit}
-\input{Stilegrafo.tikzstyles}
+
 
 \begin{document}
 \maketitle
 \begin{center}
-Realizzato in collaborazione con Alfredo Baione (s279328)
+Realizzato in collaborazione con Giulio Nenna (s245717)
 \end{center}
 \section{}% --------------ESERCIZIO 1------------------------------
-  %\begin{figure}[htb]\centering
-    %\includegraphics[scale=0.50]{grafoex1.jpg}
-  %\end{figure}
+  \begin{figure}[htb]\centering
+\includegraphics[scale=0.50]{grafoex1.jpg}
+  \end{figure}
   
-    \ctikzfig{GrafoEx1}
+    
     
   \begin{enumerate}
  
@@ -73,9 +72,9 @@ Realizzato in collaborazione con Alfredo Baione (s279328)
      \`E possibile  osservare, allora, che le \emph{active boundaries} di $X(t)$ coincidono e sono solo solo funzioni di $\eta\left(x\right)$:
      \begin{equation*}
      \zeta_{01}\left(x\right)=\sum_{i,j}W_{ij}\left(1-x_{i}\right)x_{j}=\zeta_{10}\left(x\right)=\sum_{i,j}W_{ij}\left(1-x_{j}\right)x_{i}=n+1-\eta\left(x\right).
-\end{equation*}
-  In questo caso le active boundaries sono uguali al numero di edge che collegano nodi nello stato 0 con nodi nello stato 1. Visto tutti gli edge del grafo collegano il centro (che è sempre infetto) con le foglie, allora il numero di edge che collega nodi con stato diverso tra loro è pari al numero di nodi nello stato 0. Ne risulta che $N\left(t\right)$ è una ``birth-and-death'' chain.\\
- Ponendo $N\left(t\right)=k$:
+\end{equation*}     
+ Ne risulta che $N\left(t\right)$ è una ``birth-and-death'' chain.\\
+ Ponendo $N\left(t\right)=k$, risulta:
  \begin{align*}
  &\lambda_{N\left(t\right)}\left(x\right)=\left(n-k\right)\psi_{01}+\zeta_{01}\left(x\right)\beta\varphi_{01}\left(1\right)=\left(n-k\right)\cdot0+\left(n+1-\eta\left(x\right)\right)\cdot\beta=\left(n-k\right)\cdot\beta,\\
 &\mu_{N\left(t\right)}\left(x\right)=k\psi_{10}+\zeta_{10}\left(x\right)\beta\varphi_{10}\left(0\right)=k+\left(n+1-\eta\left(x\right)\right)\cdot\beta\cdot0=k.\\
@@ -113,7 +112,7 @@ da cui si ottiene:
   Per capire quando $\bar{\pi}_{k}$, $k=0,...,3$, è massima, è possibile studiare il comportamento di $\bar{\pi}_{0}$, $\bar{\pi}_{1}$, $\bar{\pi}_{2}$ e $\bar{\pi}_{3}$, rispetto alla variabile $\beta$, nell'intervallo $[0,+\infty)$.
   
   \begin{figure}[htb]\centering
-    \includegraphics[scale=0.26]{ex1_3plot.jpg}
+\includegraphics[scale=0.26]{ex1_3plot.jpg}
   \end{figure}
   \newpage
   Come si evince dal grafico, allora:
@@ -156,10 +155,10 @@ k_{n}= \underset{k=0,...,n}{\arg\max} \, \, (\bar{\pi}_{k}) =\Bigl\lfloor\frac{n
   \newpage
 \section{}%---------------ESERCIZIO 2-----------------------------------
  
-%\begin{figure}[htb]\centering
-%\includegraphics[scale=0.50]{grafoex2.png}
- % \end{figure}
-  \ctikzfig{GrafoEx2}
+\begin{figure}[htb]\centering
+\includegraphics[scale=0.50]{grafoex2.png}
+  \end{figure}
+  
  \begin{alphaparts}
     \questionpart
 
@@ -183,18 +182,15 @@ k_{n}= \underset{k=0,...,n}{\arg\max} \, \, (\bar{\pi}_{k}) =\Bigl\lfloor\frac{n
     \end{equation*}
     dove $1$ e $2$ rappresentano, rispettivamente, i gestori dei nodi $o$ e $d$ del suddetto grafo.\\
     La funzione di \emph{best response} del primo giocatore risulta essere
-    \begin{gather*}
-    BR_{1}\left(\omega_{2}\right)=\underset{\omega_{1}\in A}{\arg\max} \, \, u_{1}\left(\omega_{1},\omega_{2}\right)= \underset{\omega_{1}\in A}{\arg\max} \, \, \omega_{1}f_{1}^{(\omega)}=\\ 
-    \underset{\omega_{1}\in A}{\arg\max} \, \, \omega_{1}\left(1-\frac{2}{3}\left(\omega_{1}-\omega_{2}\right)\right)=
- \underset{\omega_{1}\in A}{\arg\max} \, \, \omega_{1}\left(1-\frac{2}{3}\omega_{1}+\frac{2}{3}\omega_{2}\right)=\\ \underset{\omega_{1}\in A}{\arg\max} \, \, \left(\omega_{1}-\frac{2}{3}\omega_{1}^{2}+\frac{2}{3}\omega_{1}\omega_{2}\right)=\frac{3}{4}+\frac{1}{2}\omega_{2},  
-    \end{gather*}
+    \begin{align*}
+    BR_{1}\left(\omega_{2}\right)=\underset{\omega_{1}\in A}{\arg\max} \, \, u_{1}\left(\omega_{1},\omega_{2}\right)= \underset{\omega_{1}\in A}{\arg\max} \, \, \omega_{1}f_{1}^{(\omega)}= \underset{\omega_{1}\in A}{\arg\max} \, \, \omega_{1}\left(1-\frac{2}{3}\left(\omega_{1}-\omega_{2}\right)\right)=\\
+ \underset{\omega_{1}\in A}{\arg\max} \, \, \omega_{1}\left(1-\frac{2}{3}\omega_{1}+\frac{2}{3}\omega_{2}\right)=\underset{\omega_{1}\in A}{\arg\max} \, \, \left(\omega_{1}-\frac{2}{3}\omega_{1}^{2}+\frac{2}{3}\omega_{1}\omega_{2}\right)=\frac{3}{4}+\frac{1}{2}\omega_{2},  
+    \end{align*}
     mentre quella relativa al secondo é
-    \begin{gather*}
-     BR_{2}\left(\omega_{1}\right)=\underset{\omega_{2}\in A}{\arg\max} \, \, u_{2}\left(\omega_{2},\omega_{1}\right)= \underset{\omega_{2}\in A}{\arg\max} \, \, \omega_{2}f_{2}^{(\omega)}= \\
-     \underset{\omega_{2}\in A}{\arg\max} \, \, \omega_{2}\left(\frac{2}{3}\left(\omega_{1}-\omega_{2}\right)\right)=
- \underset{\omega_{2}\in A}{\arg\max} \, \, \omega_{2}\left(\frac{2}{3}\omega_{1}-\frac{2}{3}\omega_{2}\right)=\\
- \underset{\omega_{2}\in A}{\arg\max} \, \, \left(\frac{2}{3}\omega_{2}\omega_{1}-\frac{2}{3}\omega_{2}^{2}\right)=\frac{1}{2}\omega_{1}.
-    \end{gather*}
+    \begin{align*}
+     BR_{2}\left(\omega_{1}\right)=\underset{\omega_{2}\in A}{\arg\max} \, \, u_{2}\left(\omega_{2},\omega_{1}\right)= \underset{\omega_{2}\in A}{\arg\max} \, \, \omega_{2}f_{2}^{(\omega)}= \underset{\omega_{2}\in A}{\arg\max} \, \, \omega_{2}\left(\frac{2}{3}\left(\omega_{1}-\omega_{2}\right)\right)=\\
+ \underset{\omega_{2}\in A}{\arg\max} \, \, \omega_{2}\left(\frac{2}{3}\omega_{1}-\frac{2}{3}\omega_{2}\right)=\underset{\omega_{2}\in A}{\arg\max} \, \, \left(\frac{2}{3}\omega_{2}\omega_{1}-\frac{2}{3}\omega_{2}^{2}\right)=\frac{1}{2}\omega_{1}.
+    \end{align*}
     
 
     %----------------------------------------------------------------------------------
@@ -227,68 +223,34 @@ dove
 \begin{alphaparts}
 \questionpart
 Sia $n=3$.
-
-
-  
   \begin{itemize}
-  
-  
-    \item[$\left(\textbf{a1}\right)$]  $n_{1}=3$.\\
-  Ciascun giocatore sta giocando un coordination game quindi valgono le seguenti: 
+  \item[$\left(\textbf{a1}\right)$]  $n_{1}=3$.
   \begin{align*}
   \mathcal{V}_{1}=\{1,2,3\}, \, \mathcal{V}_{2}=\emptyset, \\
    u_{i}=\frac{1}{2}\sum_{j\neq i}\mid x_{i}+x_{j}\mid, \,\, \forall i.
   \end{align*}
-  Se definiamo le quantità
-  \begin{gather*}
-    n^+ = | \{x_i = +1, i\in \mathcal{V}\}|\\
-    n^- = | \{x_i = -1, i\in \mathcal{V}\}|
-  \end{gather*}
-  che rappresentano rispettivamente il numero di giocatori che stanno giocando +1 e -1 allora per ciascun giocatore vale la seguente:
-  \begin{gather*}
-    \{x_i = +1\} \in BR_i (x_{-i}) \iff n^+ \geq n^-\\
-    \{x_i = -1\} \in BR_i (x_{-i}) \iff n^- \geq n^+
-  \end{gather*}
+  Gli equilibri di Nash, pertanto, saranno dati dalle terne $\left(-1,-1,-1\right)$ e $\left(+1,+1,+1\right)$, perché entrambe le configurazioni, in tal caso, massimizzano le ``utilities'' di $1$, $2$ e $3$.
   
-  Gli equilibri di Nash, pertanto, saranno dati dalle terne $\left(-1,-1,-1\right)$ e $\left(+1,+1,+1\right)$, perché entrambe le configurazioni, in tal caso, massimizzano le ``utilities'' di $1$, $2$ e $3$ e sono compatibili con i best response di ciascun giocatore.
-  
-  
-  \item[$\left(\textbf{a2}\right)$] $n_{1}=2$.\\%----------------------------------------------------------------------------
-  In questo caso il giocatore \(i = 3\) sta giocando un anti-coordination game. Quindi: 
-  \begin{gather*}
+  \item[$\left(\textbf{a2}\right)$] $n_{1}=2$.
+  \begin{align*}
   \mathcal{V}_{1}=\{1,2\}, \, \mathcal{V}_{2}=\{3\},\\
   u_{1}=\frac{1}{2}\cdot \left(\mid x_{1}+x_{2}\mid + \mid x_{1}+x_{3}\mid\right), \\ u_{2}=\frac{1}{2}\cdot \left(\mid x_{2}+x_{1}\mid + \mid x_{2}+x_{3}\mid\right), \\ u_{3}=\frac{1}{2}\cdot \left(\mid x_{3}-x_{1}\mid + \mid x_{3}-x_{2}\mid\right).
-  \end{gather*}
-  Per cui vale:
-  \begin{gather*}
-    \{x_3 = +1\} \in BR_3 (x_{-3}) \iff n^- \geq n^+\\
-    \{x_3 = -1\} \in BR_3 (x_{-3}) \iff n^+ \geq n^-
-  \end{gather*}
-
-
-  Quindi, gli equilibri di Nash risultano essere individuati dalle configurazioni $\left(-1,-1,+1\right)$ e $\left(+1,+1,-1\right)$ in cui si può notare come ai primi due giocatori convenga essere "accordati" mentre al terzo convenga giocare il contrario di quello che giocano i primi due.
-  
-  
-  \item[$\left(\textbf{a3}\right)$]  $n_{1}=1$.\\ %-------------------------------------------------------------------------
-  In questo caso due dei tre giocatori sta giocando un anti-coordination game e solo il terzo sta giocando un coordination game. In particolare:
-  \begin{gather*}
+  \end{align*}
+  Adesso, gli equilibri di Nash risultano essere individuati dalle configurazioni $\left(-1,-1,+1\right)$ e $\left(+1,+1,-1\right)$, poiché in questi stati qualsiasi altra azione di uno dei tre giocatori, mantenendo invariate quelle degli altri, non ne migliora l' ``utility''.
+  \item[$\left(\textbf{a3}\right)$]  $n_{1}=1$.
+  \begin{align*}
   \mathcal{V}_{1}=\{1\},\, \mathcal{V}_{2}=\{2,3\},\\
   u_{1}=\frac{1}{2}\cdot \left(\mid x_{1}+x_{2}\mid + \mid x_{1}+x_{3}\mid\right), \\
   u_{2}=\frac{1}{2}\cdot \left(\mid x_{2}-x_{1}\mid + \mid x_{2}-x_{3}\mid\right), \\
   u_{3}=\frac{1}{2}\cdot \left(\mid x_{3}-x_{1}\mid + \mid x_{3}-x_{2}\mid\right).
-  \end{gather*}
-  
-  Gli equilibri di Nash sono individuati da $\left(+1,+1,-1\right)$, $\left(-1,+1,-1\right)$, $\left(+1,-1,+1\right)$ e $\left(-1,-1,+1\right)$, ossia configurazioni in cui fintanto che \(x_1 \neq x_2\) allora \(i=1\) può giocare qualsiasi valore dal momento che la sua utilità non cambia. In queste configurazioni nessun giocatore guadagna utilità cambiando mossa.
-  
-  
-  
-  \item[$\left(\textbf{a4}\right)$] $n_{1}=0$.\\%--------------------------------------------------------------------------
-  Tutti i giocatori stanno giocando un anti-coordination game:
+  \end{align*}
+  Gli equilibri di Nash sono individuati da $\left(+1,+1,-1\right)$, $\left(-1,+1,-1\right)$, $\left(+1,-1,+1\right)$ e $\left(-1,-1,+1\right)$, poiché in tali configurazioni, come spiegato anche in precedenza, nessun giocatore ha incentivo a cambiare la sua azione, se quella degli altri resta invariata.
+  \item[$\left(\textbf{a4}\right)$] $n_{1}=0$.
   \begin{align*}
   \mathcal{V}_{1}=\emptyset, \, \mathcal{V}_{2}=\{1,2,3\},\\
   u_{i}=\frac{1}{2}\sum_{j\neq i}\mid x_{i}-x_{j}\mid, \,\, \forall i
   \end{align*}
-  e gli stati $\left(+1,-1,-1\right)$, $\left(-1,+1,-1\right)$, $\left(-1,-1,+1\right)$, $\left(-1,+1,+1\right)$, $\left(+1,-1,+1\right)$ e $\left(+1,+1,-1\right)$ saranno equilibri di Nash, per le ragioni già esposte. Queste configurazioni rappresentano tutte le possibili combinazioni di mosse dei giocatori tranne quelle in cui sono tutti accordati, incompatibili con i best response di qualsiasi giocatore nel caso di un anti-coordination game.
+  e gli stati $\left(+1,-1,-1\right)$, $\left(-1,+1,-1\right)$, $\left(-1,-1,+1\right)$, $\left(-1,+1,+1\right)$, $\left(+1,-1,+1\right)$ e $\left(+1,+1,-1\right)$ saranno equilibri di Nash, per le ragioni già esposte.
   \end{itemize}
   
   
@@ -299,11 +261,10 @@ Sia $n=3$.
   \begin{itemize}
   
  \item[$\left(\textbf{b1}\right)$] $n_{1}=3$. 
- 
- \ctikzfig{Grafo1}
- 
- Per questo punto e per quelli successivi verrà utilizzata la nomenclatura mostrata in figura. In particolare \(x_i\) rappresenta la i-esima configurazione nel grafo delle transizioni e gli archi sono colorati in rosso, blu o verde se a cambiare mossa in un salto di configurazione sono rispettivamente il primo, il secondo o il terzo giocatore.  \\
-
+ \begin{figure}[htb]\centering
+\includegraphics[scale=0.50]{transitiongraph1.png}
+  \end{figure}
+  
   Come si può osservare dal grafo delle transizioni di configurazione con i relativi \emph{rate} di transizione, risulta che
   \begin{equation*}
   \lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right)=\left(\frac{1}{2},\frac{1}{2},0,0,0,0,0,0\right)',
@@ -312,116 +273,98 @@ in quanto $X\left(t\right)$, per $t\mapsto +\infty$, finirà necessariamente in 
 
 \newpage
    \item[$\left(\textbf{b2}\right)$] $n_{1}=2$. 
- 
-   \ctikzfig{Grafo2}
- 
-   %\begin{figure}[htb]\centering
-%\includegraphics[scale=0.50]{transitiongraph2.png}
-  %\end{figure}  
-  
-  Il grafo di transizione, in tal caso, è fortemente connesso. Questo significa che esiste una sola misura invariante, $\pi_{x}$, a cui tenderà $$\lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right).$$
-  Sfruttando allora l'esistenza di 4 simmetrie, identificabili con $\pi_{a}$, $\pi_{b}$, $\pi_{c}$ e $\pi_{d}$ (ognuna associata ad un raggruppamento di colore diverso in figura) è possibile determinare la misura invariante \(\pi_x\) traducendo la condizione 
-  \begin{gather*}
-    L'\pi = 0 \iff \text{diag}(\omega)\pi = \Lambda ' \pi
-  \end{gather*}
-  in
+ \begin{figure}[htb]\centering
+\includegraphics[scale=0.50]{transitiongraph2.png}
+  \end{figure}  
+  \\
+  Il grafo di transizione, in tal caso, è fortemente connesso. Questo significa che esiste una sola misura invariante, $\pi_{x}$, a cui tenderà $\lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right).$\\
+  Sfruttando, allora, l'esistenza di 4 simmetrie, identificabili con $\pi_{a}$, $\pi_{b}$, $\pi_{c}$ e $\pi_{d}$ (ognuna associata ad un raggruppamento di colore diverso in figura), risulta individuato, a partire dai \emph{rates} di transizione di ogni stato, il sistema lineare 
   \begin{equation*}
-  \begin{cases}
-    \pi_{a}=\pi_{c}+\pi_{b}\\
-    2\pi_{b}=\frac{1}{2}\pi_c+ \frac{1}{2}\pi_d\\
-    2\pi_{c}=\frac{1}{2}\pi_{b}+\frac{1}{2}\pi_{d}\\
-    \pi_{a}+\pi_{b}+\pi_{c}+\pi_{d}=\frac{1}{2}
-  \end{cases}
+  \begin{cases}\pi_{a}=\pi_{c}+\pi_{d}\\
+  \pi_{b}=\pi_{a}+\frac{1}{2}\pi_{c}+\frac{1}{2}\pi_{d}\\
+  2\pi_{c}=\frac{1}{2}\pi_{b}+\frac{1}{2}\pi_{d}\\
+   2\pi_{d}=\frac{1}{2}\pi_{b}+\frac{1}{2}\pi_{c}\\
+  \pi_{a}+\pi_{b}+\pi_{c}+\pi_{d}=\frac{1}{2}\end{cases}
   \Leftrightarrow
-  \begin{cases}
-    \pi_{a}=\frac{2}{14}\\
-    \pi_{b}=\frac{1}{14}\\
-    \pi_{c}=\frac{1}{14}\\
-    \pi_{d}=\frac{3}{14}
-  \end{cases},
+  \begin{cases}\pi_{a}=\frac{1}{7}\\
+  \pi_{b}=\frac{3}{14}\\
+  \pi_{c}=\pi_{d}=\frac{1}{14}\end{cases},
   \end{equation*}
   da cui si ricava che
-  \begin{gather*}
-  \lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right)=\\
-  =\pi_{x}=\frac{1}{14}\left(2, 2, 1, 1, 1, 1, 3, 3\right)'.
-  \end{gather*}
+  \begin{equation*}
+  \lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right)=\pi_{x}=\left(\frac{1}{7},\frac{1}{7},\frac{3}{14},\frac{3}{14},\frac{1}{14},\frac{1}{14},\frac{1}{14},\frac{1}{14}\right)'.
+  \end{equation*}
   
   
   \newpage
    \item[$\left(\textbf{b3}\right)$] $n_{1}=1$. 
- %\begin{figure}[htb]\centering
-%\includegraphics[scale=0.50]{transitiongraph3.png}
-  %\end{figure} 
-  \ctikzfig{Grafo3}
-  Anche in tal caso il grafo di transizione risulta fortemente connesso e, quindi, esiste un'unica misura invariante, $\pi_{x}$, a cui tende $$\lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right).$$\\
+ \begin{figure}[htb]\centering
+\includegraphics[scale=0.50]{transitiongraph3.png}
+  \end{figure} 
+  \\
+  Anche in tal caso il grafo di transizione risulta fortemente connesso e, quindi, esiste un'unica misura invariante, $\pi_{x}$, a cui tende $\lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right).$\\
   Come prima, grazie  ai \emph{rates} di transizione tra i diversi stati e alle quattro simmetrie presenti nel grafo ($\pi_{a}$, $\pi_{b}$, $\pi_{c}$ e $\pi_{d}$), ricaviamo il sistema
   \begin{equation*}
-  \begin{cases}
-    2\pi_{a}=\pi_{b}\\
-    \pi_{c}=\pi_{a}+\frac{1}{2}\pi_{b}+\frac{1}{2}\pi_{d}\\
-    2\pi_{b}=\frac{1}{2}\pi_{c}+\frac{1}{2}\pi_{d}\\
-    \pi_{a}+\pi_{b}+\pi_{c}+\pi_{d}=\frac{1}{2}
-  \end{cases}
+  \begin{cases}2\pi_{a}=\pi_{c}\\
+  \pi_{b}=\pi_{a}+\frac{1}{2}\pi_{c}+\frac{1}{2}\pi_{d}\\
+  2\pi_{c}=\frac{1}{2}\pi_{b}+\frac{1}{2}\pi_{d}\\
+  \pi_{d}=\pi_{a}+\frac{1}{2}\pi_{b}+\frac{1}{2}\pi_{c}\\
+  \pi_{a}+\pi_{b}+\pi_{c}+\pi_{d}=\frac{1}{2}\end{cases}
   \Leftrightarrow
   \begin{cases}\pi_{a}=\frac{1}{22}\\
-  \pi_{c}=\pi_{d}=\frac{2}{11}\\
-  \pi_{b}=\frac{1}{11}\end{cases},
+  \pi_{b}=\pi_{d}=\frac{2}{11}\\
+  \pi_{c}=\frac{1}{11}\end{cases},
   \end{equation*}
   da cui
-  \begin{gather*}
-  \lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right)=\\
-  =\pi_{x}=\left(\frac{1}{22},\frac{1}{22},\frac{1}{11},\frac{1}{11},\frac{2}{11},\frac{2}{11},\frac{2}{11},\frac{2}{11}\right)'.
-  \end{gather*}
+  \begin{equation*}
+  \lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right)=\pi_{x}=\left(\frac{1}{22},\frac{1}{22},\frac{2}{11},\frac{2}{11},\frac{1}{11},\frac{1}{11},\frac{2}{11},\frac{2}{11}\right)'.
+  \end{equation*}
   
   \newpage
   \item[$\left(\textbf{b4}\right)$] $n_{1}=0$. 
- %\begin{figure}[htb]\centering
-%\includegraphics[scale=0.50]{transitiongraph4.png}
-  %\end{figure}
-  
-  
-  \ctikzfig{Grafo4}
+ \begin{figure}[htb]\centering
+\includegraphics[scale=0.50]{transitiongraph4.png}
+  \end{figure}
+  \\
   In quest'ultima configurazione del grafo di transizione esiste un solo stato assorbente del sistema, per $t\mapsto +\infty$, rappresentato dall'insieme $\{x_{3}, \, x_{4}, \, x_{5}, \, x_{6}, \, x_{7}, \, x_{8}\}$.\\
-  Pertanto, si avrà, analogamente al caso in cui \(n_1 = 3\):
+  Pertanto, si avrà:
   \begin{equation*}
   \lim\limits_{t \rightarrow +\infty}\mathbb{P}\left(X\left(t\right)=x\mid X\left(0\right)=\left(+1,-1,+1\right)\right)=\left(0,0,\frac{1}{6},\frac{1}{6},\frac{1}{6},\frac{1}{6},\frac{1}{6},\frac{1}{6}\right)'.
 \end{equation*}
+\end{itemize}
+
+
+
+\questionpart
+Di seguito viene presentata un'analisi circa il numero degli equilibri di Nash (a strategia pura) del gioco per valori non negativi arbitrari di $n$ e $n_{1}$, come funzione di tali parametri.
+   \begin{itemize}\item Sia $n$ pari.
    
-   \end{itemize}
-
-
-   \questionpart
-   Di seguito viene presentata un'analisi circa il numero degli equilibri di Nash (a strategia pura) del gioco per valori non negativi arbitrari di $n$ e $n_{1}$, come funzione di tali parametri.
-      \begin{itemize}\item Sia $n$ pari.
-      
-      \begin{itemize}\item Se $n_{1}=0$, il numero totale di equilibri di Nash è dato semplicemente da tutte le possibili disposizioni dei valori $+1$ e $-1$, presi con uguale numerosità, all'interno dell'insieme $\mathcal{V}_2.$ Questo perché tutti i giocatori, cercando di anti-coordinarsi tra loro, tenderanno a passare nell'insieme di coloro la cui azione è meno rappresentata, finendo con l'eguagliare esattamente il numero di giocatori, per ogni scelta disponibile. 
-      \\Si avrà:
+   \begin{itemize}\item Se $n_{1}=0$, il numero totale di equilibri di Nash è dato semplicemente da tutte le possibili disposizioni dei valori $+1$ e $-1$, presi con uguale numerosità, all'interno dell'insieme $\mathcal{V}_2.$ Questo perché tutti i giocatori, cercando di anti-coordinarsi tra loro, tenderanno a passare nell'insieme di coloro la cui azione è meno rappresentata, finendo con l'eguagliare esattamente il numero di giocatori, per ogni scelta disponibile. 
+   \\Si avrà:
+   \begin{align*}
+   n^{o} \, \,  N.E.=\frac{n!}{\left(\frac{n}{2}\right)!\left(\frac{n}{2}\right)!}
+      \end{align*} 
+      \item Se $1\leq n_{1}\leq \frac{n}{2}$, non esistono equilibri di Nash. Infatti, introducendo le azioni di coordinamento nel gioco, si verifica sempre un cambio di strategia da parte di quei giocatori che, per massimizzare la propria \emph{utility}, o scelgono di compiere l'azione maggiormente diffusa che, anche se non esistesse, sarebbe comunque decretata dalla necessità di un cambio di decisione per massimizzare la \emph{best response} (ed è il caso dei giocatori presenti nell'insieme $\mathcal{V}_1$), oppure scelgono di compiere quella meno diffusa (ed è il caso dei giocatori presenti nell'insieme $\mathcal{V}_2$). Ad ogni modo, questo continuo cambio di azione non permette l'esistenza di equilibri di Nash a strategia pura.
+      \item Se $\frac{n}{2}< n_{1} \leq n$, risulta:
       \begin{align*}
-      n^{o} \, \,  N.E.=\frac{n!}{\left(\frac{n}{2}\right)!\left(\frac{n}{2}\right)!}
-         \end{align*} 
-         \item Se $1\leq n_{1}\leq \frac{n}{2}$, non esistono equilibri di Nash. 
-         Infatti il gioco "orbiterà" attorno alle configurazioni in cui il numero di giocatori che giocano \(+1\) (\(n^+\)) e quello di giocatori che giocano \(-1\) (\(n^-\)) sono uguali. Nel momento in cui si arriva a toccare una configurazione in cui \(n^+ = n^- = \frac{n}{2}\) allora a ciascun giocatore in \(\mathcal{V}_1\) conviene cambiare azione in quanto vedrebbe aumentare il numero di giocatori concordanti di un'unità. Come risposta ciascun giocatore di \(\mathcal{V}_1\) tenderà a seguire questa mossa mentre quelli di \(\mathcal{V}_2\) tenderanno a controbilanciarla, mantenendo quindi il gioco sempre attorno alle configurazioni in cui \(n^+ = n^- = \frac{n}{2}\).
-         
-         \item Se $\frac{n}{2}< n_{1} \leq n$, risulta:
-         \begin{align*}
-         n^{o} \, \,  N.E.=2.
-          \end{align*}
-          Il motivo di ciò risiede nel fatto che, essendo presente ora una maggioranza di giocatori di coordinamento, ognuno avrà a sua disposizione esattamente due insiemi a cui fare riferimento, per massimizzare la propria \emph{utility}: quello formato da una maggioranza di azioni $+1$ o $-1$, per i giocatori appartenenti a $\mathcal{V}_1$ e, di conseguenza, quello formato da una minoranza di azioni $+1$ o $-1$, per i giocatori appartenenti a $\mathcal{V}_2.$
-         \end{itemize}
-         \item Sia $n$ dispari.
-         \begin{itemize}\item Se $0\leq n_{1}\leq \frac{n-1}{2}$, risulta:
-         \begin{align*}
-         n^{o} \, \,  N.E.=\frac{2\left(n-n_1\right)!}{\left(\frac{n-1}{2}\right)!\left(\frac{n-2n_1+1}{2}\right)!}.
-         \end{align*}
-         Tale formula è conseguenza del fatto che, essendoci un minor numero di giocatori di coordinamento rispetto a quelli di anti-coordinamento, gli equilibri di Nash sono raggiunti ogni qualvolta si ha una configurazione con $\frac{n-1}{2}$ azioni di un tipo e $\frac{n+1}{2}$ azioni di un altro, indipendentemente dall'insieme di provenienza dei giocatori.
-         \item Se $\frac{n+1}{2}\leq n_1 \leq n$, allora
-         \begin{align*}
-          n^{o} \, \,  N.E.=2
-          \end{align*}
-          poiché, come già osservato precedentemente, in presenza di un maggior numero di giocatori di coordinamento rispetto a quelli di anti-coordinamento, le singole azioni si allineano in funzione dell'appartenenza del corrispettivo giocatore ad una data classe ($\mathcal{V}_1$ o  $\mathcal{V}_2$), determinando, di fatto, due sole possibili configurazioni di equilibrio di Nash. 
-       \end{itemize}  
-       \end{itemize} 
-   \end{alphaparts}
+      n^{o} \, \,  N.E.=2.
+       \end{align*}
+       Il motivo di ciò risiede nel fatto che, essendo presente ora una maggioranza di giocatori di coordinamento, ognuno avrà a sua disposizione esattamente due insiemi a cui fare riferimento, per massimizzare la propria \emph{utility}: quello formato da una maggioranza di azioni $+1$ o $-1$, per i giocatori appartenenti a $\mathcal{V}_1$ e, di conseguenza, quello formato da una minoranza di azioni $+1$ o $-1$, per i giocatori appartenenti a $\mathcal{V}_2.$
+      \end{itemize}
+      \item Sia $n$ dispari.
+      \begin{itemize}\item Se $0\leq n_{1}\leq \frac{n-1}{2}$, risulta:
+      \begin{align*}
+      n^{o} \, \,  N.E.=\frac{2\left(n-n_1\right)!}{\left(\frac{n-1}{2}\right)!\left(\frac{n-2n_1+1}{2}\right)!}.
+      \end{align*}
+      Tale formula è conseguenza del fatto che, essendoci un minor numero di giocatori di coordinamento rispetto a quelli di anti-coordinamento, gli equilibri di Nash sono raggiunti ogni qualvolta si ha una configurazione con $\frac{n-1}{2}$ azioni di un tipo e $\frac{n+1}{2}$ azioni di un altro, indipendentemente dall'insieme di provenienza dei giocatori.
+      \item Se $\frac{n+1}{2}\leq n_1 \leq n$, allora
+      \begin{align*}
+       n^{o} \, \,  N.E.=2
+       \end{align*}
+       poiché, come già osservato precedentemente, in presenza di un maggior numero di giocatori di coordinamento rispetto a quelli di anti-coordinamento, le singole azioni si allineano in funzione dell'appartenenza del corrispettivo giocatore ad una data classe ($\mathcal{V}_1$ o  $\mathcal{V}_2$), determinando, di fatto, due sole possibili configurazioni di equilibrio di Nash. 
+    \end{itemize}  
+    \end{itemize} 
+  \end{alphaparts}
 % Sometimes questions get separated from their bodies. Use a \newpage to force
 % them to wrap to the next page.
 % Use \renewcommand{\questiontype}{<text>} to change what word is displayed

@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1608657909 "c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.tex" "c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.pdf" "homework2alfredo" 1608657912
+["pdflatex"] 1608720280 "c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.tex" "c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.pdf" "homework2alfredo" 1608720283
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc" 1254935040 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc" 1254935040 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc" 1254935040 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -247,18 +247,19 @@
   "GrafoEx1.tikz" 1608657891 750 3e6fa7886a9fdade35a7042244c055fb ""
   "GrafoEx2.tikz" 1608657310 454 ff22547cf003fb6384e66ecd20c12314 ""
   "Stilegrafo.tikzstyles" 1608657853 1642 9219061a0fb04b876b9271f6ceca0efa ""
-  "c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.aux" 1608657912 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.tex" 1608657907 19305 bac92ec66443dc9ea326ccdb553a2017 ""
+  "c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.aux" 1608720283 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.tex" 1608720279 23104 ff3e79e71459b190bc439df542a4f9d1 ""
+  "ex1_3plot.jpg" 1608715723 143613 669c8845de252d6eaee8f0a936ea13f6 ""
   "homework.cls" 1608629062 5533 870888d4c585315eca3f91cc8294cf09 ""
-  "homework2alfredo.aux" 1608657912 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
-  "homework2alfredo.out" 1608657911 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "homework2alfredo.tex" 1608657907 19305 bac92ec66443dc9ea326ccdb553a2017 ""
+  "homework2alfredo.aux" 1608720283 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
+  "homework2alfredo.out" 1608720282 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "homework2alfredo.tex" 1608720279 23104 ff3e79e71459b190bc439df542a4f9d1 ""
   "mcode.sty" 1608629049 11473 e3c3290432e60d7d82bde7534454793e ""
   "tikzit.sty" 1608637960 1248 bd3a4ee1dccdce0fc641973c4461749d ""
   (generated)
-  "homework2alfredo.pdf"
-  "c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.pdf"
   "c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.log"
   "homework2alfredo.log"
+  "homework2alfredo.pdf"
+  "c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.pdf"
   "homework2alfredo.out"
   "homework2alfredo.aux"

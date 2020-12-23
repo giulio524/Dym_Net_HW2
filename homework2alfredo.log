@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  22 DEC 2020 18:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.24)  23 DEC 2020 11:44
 entering extended mode
 **c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.tex
 (c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/homework2alfredo.tex
@@ -818,7 +818,17 @@ Overfull \hbox (5.7942pt too wide) in paragraph at lines 112--114
 \T1/lmr/m/n/10.95 com-por-ta-mento di $[]$, $[]$, $[]$ e $[]$, rispetto alla vari-abile $\OML/lmm/m/it/10.95 $\T1/lmr/m/n/10.95 , nell'intervallo
  []
 
-[3]
+<ex1_3plot.jpg, id=31, 1927.2pt x 939.51pt>
+File: ex1_3plot.jpg Graphic file (type jpg)
+<use ex1_3plot.jpg>
+Package pdftex.def Info: ex1_3plot.jpg  used on input line 116.
+(pdftex.def)             Requested size: 501.0602pt x 244.26683pt.
+
+Overfull \hbox (141.0602pt too wide) in paragraph at lines 116--117
+ [][] 
+ []
+
+[3 <c:/Users/giuli/Documents/GitHub/Dym_Net_HW2/ex1_3plot.jpg>]
 Overfull \hbox (76.02795pt too wide) detected at line 142
 []
  []
@@ -893,31 +903,31 @@ Overfull \hbox (21.04924pt too wide) detected at line 388
 [] \U/msb/m/n/10.95 P [] \OT1/lmr/m/n/10.95 = [][] \OML/lmm/m/it/10.95 :
  []
 
-[13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
+[13] [14] [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 430.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 430.
  (c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\homework2alfredo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 397.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 430.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 430.
 Package rerunfilecheck Info: File `homework2alfredo.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 397.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 430.
  )
 (\end occurred when \ifx on line 216 was incomplete)
 (\end occurred when \ifx on line 157 was incomplete)
 (\end occurred when \ifx on line 33 was incomplete) 
 Here is how much of TeX's memory you used:
- 26918 strings out of 480799
- 509022 string characters out of 2905528
+ 26932 strings out of 480799
+ 509214 string characters out of 2905528
  914053 words of memory out of 3000000
- 42302 multiletter control sequences out of 15000+200000
+ 42310 multiletter control sequences out of 15000+200000
  581222 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,15n,72p,3296b,988s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\homework2alfredo.pdf (13 pages, 222712 bytes).
+Output written on c:/Users\giuli\Documents\GitHub\Dym_Net_HW2\homework2alfredo.pdf (15 pages, 374287 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 152 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
